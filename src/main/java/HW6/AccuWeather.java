@@ -5,6 +5,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 import java.io.IOException;
+
 public class AccuWeather<pass> implements Weather {
     //http://dataservice.accuweather.com/forecasts/v1/daily/1day/349727
     private static String PROTOCOL = "https";
